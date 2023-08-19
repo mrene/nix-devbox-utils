@@ -1,0 +1,17 @@
+buf latest
+istioctl 1.18.0
+sops 3.7.3
+stripe-cli latest
+yq 4.25.3
+jb latest
+go 1.19.3
+tanka latest
+minikube 1.29.0
+python 3.10
+grpcurl latest
+helm latest
+kubectl 1.27.3
+kubectx latest
+k9s latest
+process-compose 0.60.0
+terraform 1.5.2
