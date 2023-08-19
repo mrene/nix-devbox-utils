@@ -2,17 +2,17 @@
   "nodes": {
     "nix-devbox-utils": {
       "locked": {
-        "lastModified": 1692417519,
-        "narHash": "sha256-kFP+WB6OtfbWVKgJFIR8JPJgxHbqlypf8786ilcYLI4=",
-        "ref": "refs/heads/master",
-        "rev": "8fe9976e892ec23a04b2c9e3cb8e9fa61300e8c4",
-        "revCount": 1,
-        "type": "git",
-        "url": "ssh://git@github.com/mrene/nix-devbox-utils"
+        "lastModified": 1692462681,
+        "narHash": "sha256-PIAQ5cz2zV79ZtotdRElv45hS+st0tXlFM2P0zB1HpU=",
+        "owner": "mrene",
+        "repo": "nix-devbox-utils",
+        "rev": "c83f84840b48ee01c730df9fc0d4a5d1816b37c7",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "ssh://git@github.com/mrene/nix-devbox-utils"
+        "owner": "mrene",
+        "repo": "nix-devbox-utils",
+        "type": "github"
       }
     },
     "nixpkgs": {
