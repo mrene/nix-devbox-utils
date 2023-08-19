@@ -8,7 +8,7 @@
     #    lockFile = ./devbox.lock;
     # }
     lib.mkDevbox = { pkgs, ... }@inputs: pkgs.callPackage ./default.nix { } (builtins.removeAttrs inputs [ "pkgs" ]);
-    overlays.default = final: prev: {
+    overlays.default = _: prev: {
       mkDevbox = prev.callPackage ./default.nix { };
     };
   };
