@@ -7,96 +7,11 @@
       "source": "devbox-search",
       "version": "1.25.0"
     },
-    "go@1.19.3": {
-      "last_modified": "2022-12-08T11:15:29Z",
-      "resolved": "github:NixOS/nixpkgs/52665b05cfd702e12b877aa519b62374d003231a#go",
-      "source": "devbox-search",
-      "version": "1.19.3"
-    },
-    "grpcurl@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#grpcurl",
-      "source": "devbox-search",
-      "version": "1.8.7"
-    },
-    "helm@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#helm",
-      "source": "devbox-search",
-      "version": "0.9.0"
-    },
     "istioctl@1.18.0": {
       "last_modified": "2023-06-30T04:44:22Z",
       "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#istioctl",
       "source": "devbox-search",
       "version": "1.18.0"
-    },
-    "jsonnet-bundler@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#jsonnet-bundler",
-      "source": "devbox-search",
-      "version": "0.5.1"
-    },
-    "k9s@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#k9s",
-      "source": "devbox-search",
-      "version": "0.27.4"
-    },
-    "kubectl@1.27.3": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#kubectl",
-      "source": "devbox-search",
-      "version": "1.27.3"
-    },
-    "kubectx@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#kubectx",
-      "source": "devbox-search",
-      "version": "0.9.4"
-    },
-    "minikube@1.29.0": {
-      "last_modified": "2023-04-13T12:37:37Z",
-      "resolved": "github:NixOS/nixpkgs/c58e6fbf258df1572b535ac1868ec42faf7675dd#minikube",
-      "source": "devbox-search",
-      "version": "1.29.0"
-    },
-    "python@3.10": {
-      "last_modified": "2023-05-14T19:13:12Z",
-      "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/3007746b3f5bfcb49e102b517bca891822a41b31#python3",
-      "source": "devbox-search",
-      "version": "3.10.11"
-    },
-    "sops@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#sops",
-      "source": "devbox-search",
-      "version": "3.7.3"
-    },
-    "stripe-cli@latest": {
-      "last_modified": "2023-08-08T03:07:33Z",
-      "resolved": "github:NixOS/nixpkgs/844ffa82bbe2a2779c86ab3a72ff1b4176cec467#stripe-cli",
-      "source": "devbox-search",
-      "version": "1.17.0"
-    },
-    "tanka@latest": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#tanka",
-      "source": "devbox-search",
-      "version": "0.25.0"
-    },
-    "terraform@1.5.2": {
-      "last_modified": "2023-06-30T04:44:22Z",
-      "resolved": "github:NixOS/nixpkgs/3c614fbc76fc152f3e1bc4b2263da6d90adf80fb#terraform",
-      "source": "devbox-search",
-      "version": "1.5.2"
-    },
-    "yq-go@4.25.3": {
-      "last_modified": "2022-07-08T15:07:10Z",
-      "resolved": "github:NixOS/nixpkgs/334ec8b503c3981e37a04b817a70e8d026ea9e84#yq-go",
-      "source": "devbox-search",
-      "version": "4.25.3"
     }
   }
 }

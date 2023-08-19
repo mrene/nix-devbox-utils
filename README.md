@@ -3,7 +3,7 @@
 ## What does it do?
 nix-devbox-utils makes your devbox.lock usable from your existing nix code. Its imported packages can then be used as part of other derivations.
 
-## Installation
+## Usage
 
 ```nix
 {
@@ -17,9 +17,10 @@ nix-devbox-utils makes your devbox.lock usable from your existing nix code. Its 
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
 
       # Import the devbox lock file
-      # This contains { packages = { name = derivation; ... }; all-packages = derivation; }
+      # This returns { packages = { "${name}" = derivation; ... }; all-packages = derivation; }
       box = nix-devbox-utils.lib.mkDevbox {
         inherit pkgs;
+        devbox = ./devbox.json;
         lockFile = ./devbox.lock;
       };
     in 

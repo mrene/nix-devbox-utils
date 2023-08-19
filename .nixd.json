@@ -3,7 +3,7 @@
         "target": {
             "args": [
                 "--expr",
-                "(with import <nixpkgs> { }; callPackage ./default.nix { } { lockFile = ./devbox.lock; }).all-packages"
+                "(with import <nixpkgs> { }; callPackage ./default.nix { } { devbox = ./devbox.json; lockFile = ./devbox.lock; }).all-packages"
             ]
         }
     }

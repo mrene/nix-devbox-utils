@@ -1,7 +1,13 @@
 {
   description = "A helper flake to work with devbox lock files";
   outputs = {self}: {
-    lib.mkDevbox = { pkgs, ... }@inputs: pkgs.callPackage ./default.nix { } (pkgs.lib.filterAttrs (k: v: k != "pkgs") inputs);
+    # Exposes mkDevbox while merging its option
+    # Usage:
+    # mkDevbox {
+    #    inherit pkgs;
+    #    lockFile = ./devbox.lock;
+    # }
+    lib.mkDevbox = { pkgs, ... }@inputs: pkgs.callPackage ./default.nix { } (builtins.removeAttrs inputs [ "pkgs" ]);
     overlays.default = final: prev: {
       mkDevbox = prev.callPackage ./default.nix { };
     };
