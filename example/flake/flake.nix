@@ -3,7 +3,7 @@
 
   inputs.nix-devbox-utils.url = "github:mrene/nix-devbox-utils";
 
-  outputs = { nixpkgs, nix-devbox-utils }: 
+  outputs = { nixpkgs, nix-devbox-utils, ... }: 
   {
     packages.x86_64-linux = let
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
